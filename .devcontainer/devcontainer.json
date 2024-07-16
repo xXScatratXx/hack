@@ -1,0 +1,11 @@
+{
+"customizations": {
+  "codespaces": {
+    "openFiles": [
+      "hacktribe-tutorial.sh"
+    ]
+    }
+  },
+"postCreateCommand": "git checkout experimental",
+"postAttachCommand": "./hacktribe-tutorial.sh" 
+}
